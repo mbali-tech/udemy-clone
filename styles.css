@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+nav {
+    gap: 2rem;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+
+
+nav ul {
+    flex-direction: 75%;
+    align-items: center;
+    display: flex;
+}
+
+form {
+    margin: 2px 25px;
+    border: 1px solid black;
+    padding: 0.5rem 11rem 0.5rem 1rem;
+    border-radius: 55px;
+}
+
+form input {
+    text-align: left;
+    border: none;
+}
+
+nav ul li {
+    font-size: 13px;
+    margin-right: 4rem;
+    list-style: none;
+
+}
+
+nav ul button, nav ul img{
+    margin-right: 0.6rem;
+}
+
+nav ul button{
+    background-color: white;
+    padding: 0.3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* styling the section */
+section{
+    width: 80%;
+    margin: auto;
+}
+
+/* styling first div */
+.div1 {
+    margin: 1.5rem 0;
+}
+
+.div1 ul {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.div1 a{
+    text-decoration: none;
+    color: grey;
+}
+
+.div1 .pyth {
+    color: black;
+}
+
+.div1 p {
+    margin: 1.5rem 0;
+}
+
+/* styling second div */
+.div2 {
+    width: 100%;
+    border: 1px solid grey;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: rem;
+}
+
+.sales1 {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    height: fit-content;
+}
+
+.imgg {
+    height: 140px;
+    width: 90%;
+}
+
+.img1 {
+    background-image: url(394676_ce3d_5.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.img2{
+    background-image: url(396876_cc92_7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3{
+    background-image: url(405878_e5a0_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4{
+    background-image: url(482754_7146_6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img5{
+    background-image: url(519554_da68_6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div2 p:nth-child(2) {
+    margin: 1rem 0;
+    font-size: 15px;
+    line-height: 1.4rem;
+    width: 65%;
+    color: rgb(95, 89, 89);
+}
+
+.div2 p:nth-child(2) {
+    margin: 1rem 0;
+    font-size: 15px;
+    line-height: 1.4rem;
+    width: 65%;
+    color: rgb(95, 89, 89);
+}
+
+.div2 button:nth-last-child(1){
+    margin-bottom: 0.5rem;
+    background-color: rgb(236, 236, 152);
+    padding: 0.3rem;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.explore{
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.3rem;
+}
+
+.sales1 img {
+    box-sizing: border-box;
+}
+.sales1 h2:nth-of-type(1) {
+   width: 100%;
+   font-size: 0.8rem;
+}
+
+.sales1 i{
+    color: orange;
+}
+
+.rate {
+    display: flex;
+    margin: 0.4rem 0;
+    font-size: 12px;
+    gap: 0.5rem;
+}
+
+.rate h4{
+    color: orange;
+    font-size: 15px;
+}
+
+/* styling third div */
+.div3 {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 12px;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    margin: 1.5rem 0;
+    background-color: rgb(250, 245, 245);
+}
+
+.skills, .taught, .learn {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.skills h3, .taught h3, .learn h3 {
+    width: 70%;
+}
+
+.circle {
+    border-radius: 55px;
+    background-color: rgb(185, 184, 184);
+    padding: 0.6rem;
+}
+
+/* styling next div */
+.div4 {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: rem;
+}
+
+.div4 h2 {
+    margin-bottom: 1rem;
+}
+
+.salesa {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    height: fit-content;
+}
+
+.imgg {
+    height: 8.75rem;
+    width: 90%;
+}
+
+.imga {
+    background-image: url(394676_ce3d_5.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.imgb{
+    background-image: url(396876_cc92_7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgc{
+    background-image: url(405878_e5a0_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgd{
+    background-image: url(482754_7146_6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imge{
+    /* background-image: url(519554_da68_6.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+.div4 button:nth-last-child(1){
+    margin-bottom: 0.5rem;
+    background-color: rgb(236, 236, 152);
+    padding: 0.3rem;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.salesa h2:nth-of-type(1) {
+   width: 100%;
+   font-size: 0.8rem;
+}
+
+.salesa i{
+    color: orange;
+}
+
+.rate {
+    display: flex;
+    margin: 0.4rem 0;
+    font-size: 12px;
+    gap: 0.5rem;
+}
+
+.rate h4{
+    color: orange;
+    font-size: 15px;
+}
+
+/* styling div5 */
+.div5 {
+    margin: 2rem 0;
+}
+.div5 h2 {
+    margin-bottom: 1.5rem;
+}
+
+.arrange{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: auto auto auto auto;
+}
+
+.arrange img {
+    gap: 1rem;
+    height: 16.75rem;
+    width: 100%;
+}
+
+/* styling div6 */
+.div6 {
+    padding: 3rem 0;
+    width: 100%;
+    background-color: rgb(243, 248, 250);
+    margin: 3rem 0;
+}
+
+.div6 h2 {
+    margin-bottom: 2rem;
+}
+
+.div6 table {
+    margin: 2rem 0;
+}
+
+.div6 th{
+    font-size: 17px;
+    text-align: left;
+    padding: 0 10rem 2rem 0;
+}
+
+.div6 td {
+    padding: 0 0 1rem 0;
+    font-size: 15px;
+}
+
+.div6 tr {
+    padding-right: 1rem;
+}
+.div6 td a {
+    color: rgb(99, 24, 185);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.div6 button{
+    border: 1.5px solid black;
+    background: transparent;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+/* styling next div */
+.div7 {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.div7 h2 {
+    margin: 1rem 0;
+}
+
+.partners {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* styling div8 */
+.div8s{
+    display: flex;
+    gap: 2rem;
+    width: 70%;
+    margin: auto;
+    /* padding: 3rem 0; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.div8a{
+    width: 50%;
+}
+
+.div8a h1 {
+    margin: 0.7rem 0;
+}
+
+.div8a ul {
+    margin: 0 0 1.5rem 1rem;
+}
+
+.div8a ul li{
+    margin-bottom: 0.5rem;
+}
+
+.butts button {
+    padding: 10px;
+}
+
+.butts .buttona{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+.butts .buttonb{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+/* styling div9 */
+.div9{
+    display: flex;
+    gap: 4rem;
+    width: 70%;
+    margin: auto;
+    padding: 3rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div9b{
+    width: 80%;
+}
+
+.div9b p {
+    margin: 0.7rem 0;
+}
+
+.div9b h1 {
+    margin: 0.7rem 0;
+}
+
+.div9b button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+/* styling the footer */
+footer{
+    padding: 2rem;
+    background-color: rgb(32, 30, 30);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.foota {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.footb {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+footer td {
+    padding: 0 10rem 0 0;
+    font-size: 15px;
+}
+
+footer tr {
+    padding-right: 1rem;
+}
+
+footer td a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+footer td a:hover {
+    color: white;
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+.scdbtn {
+    width: fit-content;
+    height: min-content;
+    background-color: black;
+    border: none;
+}
+
+.scdbtn i{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
